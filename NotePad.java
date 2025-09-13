@@ -38,7 +38,7 @@ public class NotePad {
         menuBar.add(fileMenu);
         menuBar.add(editMenu);
         menuBar.add(helpMenu);
-        //actions file menue
+    
         open.addActionListener(e -> {
             JFileChooser chooser = new JFileChooser();
             int option = chooser.showOpenDialog(frame);
@@ -85,3 +85,4 @@ public class NotePad {
         frame.setVisible(true);
     }
 }
+
